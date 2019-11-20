@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="javakc_ssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52f613b5-24ea-4220-ad5d-46a1c09e2f5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/javakc_mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/javakc_oracle.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/cookie/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dao/MyBatisDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/Dialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/DB2Dialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/DerbyDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/H2Dialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/HSQLDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/MySQLDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/OracleDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/PostgreSQLDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/SQLServer2005Dialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/SQLServerDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dialect/db/SybaseDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/page/BaseInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/page/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/page/PaginationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/page/SQLHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/Reflections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/converter/DateTimeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/converter/IntegerConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/date/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/excel/ExportExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/excel/ImportExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/file/DownloadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/file/UploadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/listener/DictionaryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/redis/RedisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/servlet/InitServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/session/CachingShiroSessionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/tag/DateTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/tag/MenuTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/tag/SelectTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/util/tag/ShowTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/dictionary/controller/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/dictionary/dao/DictionaryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/dictionary/entity/DictionaryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/dictionary/service/DictionaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/org/tree/controller/OrgtreeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/org/tree/dao/OrgtreeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/org/tree/entity/OrgtreeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/org/tree/service/OrgtreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/cache/controller/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/cache/service/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/home/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/home/dao/HomeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/home/entity/HomeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/home/service/HomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/home/task/HomeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/menu/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/menu/dao/MenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/menu/entity/MenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/menu/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/role/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/role/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/role/entity/RoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/role/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/shiro/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/shiro/realm/SecurityRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/user/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/user/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/dao/TestDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/entity/TestEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/javakc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/modules/dictionary/DictionaryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/modules/org/OrgtreeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/modules/system/HomeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/modules/system/MenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/modules/system/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/modules/system/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/modules/test/testDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/template/测试模块.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/zhg.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/view/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/view/error/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/view/error/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/view/error/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/view/images/403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/view/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/view/images/500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/view/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/form_avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index_v1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index_v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index_v3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrapValidator.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/patterns/header-profile-skin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/patterns/header-profile-skin-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/patterns/header-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/bootstrap-switch/bootstrap-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/chosen/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/colorpicker/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/cropper/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/file-input/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/switchery/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/treegrid/jquery.treegrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/treeview/bootstrap-treeview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/plugins/ztree/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/html/form/form_advanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/html/form/form_basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/alipay_qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/iconfont-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/index_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/loading-upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p_big1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p_big2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/p_big3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/profile_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/profile_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/img/wenku_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrapValidator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/contabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/content.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/hplus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-switch/bootstrap-switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-table/bootstrap-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/chosen/chosen.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/clockpicker/clockpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/cropper/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/file-input/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fullavatareditor/fullAvatarEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/fullavatareditor/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/highcharts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/highcharts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/highcharts-3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/highcharts-3d.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/highcharts-3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/highcharts-more.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/highcharts.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/accessibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/accessibility.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/accessibility.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/annotations.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/boost-canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/boost-canvas.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/boost-canvas.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/boost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/boost.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/boost.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/broken-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/broken-axis.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/broken-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/bullet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/bullet.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/data.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/drag-panes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/drag-panes.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/drag-panes.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/drilldown.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/export-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/export-data.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/export-data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/exporting.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/funnel.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/gantt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/gantt.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/gantt.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/grid-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/grid-axis.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/grid-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/heatmap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/histogram-bellcurve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/histogram-bellcurve.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/histogram-bellcurve.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/item-series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/item-series.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/item-series.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/no-data-to-display.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/offline-exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/offline-exporting.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/offline-exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/oldie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/oldie.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/oldie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/overlapping-datalabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/overlapping-datalabels.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/overlapping-datalabels.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/parallel-coordinates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/parallel-coordinates.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/parallel-coordinates.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/pareto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/pareto.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/pareto.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/sankey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/sankey.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/sankey.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/series-label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/series-label.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/series-label.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/solid-gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/solid-gauge.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/solid-gauge.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/static-scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/static-scale.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/static-scale.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/stock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/stock.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/stock.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/streamgraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/streamgraph.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/streamgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/sunburst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/sunburst.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/sunburst.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/tilemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/tilemap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/tilemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/treemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/treemap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/treemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/variable-pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/variable-pie.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/variable-pie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/variwide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/variwide.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/variwide.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/vector.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/vector.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/windbarb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/windbarb.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/windbarb.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/wordcloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/wordcloud.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/wordcloud.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/xrange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/xrange.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/modules/xrange.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/avocado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/avocado.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/avocado.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/dark-blue.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/dark-blue.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/dark-green.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/dark-green.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/dark-unica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/dark-unica.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/dark-unica.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/gray.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/gray.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/grid-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/grid-light.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/grid-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/grid.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/grid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/sand-signika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/sand-signika.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/sand-signika.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/skies.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/skies.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/sunset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/sunset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/css/js/themes/sunset.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/avocado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/avocado.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/avocado.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/dark-blue.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/dark-blue.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/dark-green.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/dark-green.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/dark-unica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/dark-unica.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/dark-unica.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/gray.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/gray.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/grid-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/grid-light.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/grid-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/grid.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/grid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/sand-signika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/sand-signika.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/sand-signika.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/skies.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/skies.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/sunset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/sunset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/highcharts/themes/sunset.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jasny/jasny-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/jsKnob/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/layer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/mono/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/mono/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/moon/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/nouslider/jquery.nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/pace/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/prettyfile/bootstrap-prettyfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/steps/jquery.steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/steps/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/steps/steps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/switchery/switchery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/treegrid/jquery.treegrid.bootstrap3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/treegrid/jquery.treegrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/treeview/bootstrap-treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/validate/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/validate/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ztree/jquery.ztree.core-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ztree/jquery.ztree.core-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ztree/jquery.ztree.excheck-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ztree/jquery.ztree.excheck-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ztree/jquery.ztree.exedit-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/plugins/ztree/jquery.ztree.exedit-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/tool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/dictionary/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/dictionary/js/dictionary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/dictionary/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/dictionary/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/org/tree/js/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/org/tree/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/cache/js/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/cache/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/menu/create-parent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/menu/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/menu/js/menu-create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/menu/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/menu/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/menu/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/role/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/role/js/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/role/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/role/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/user/forgetpass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/user/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/user/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/system/user/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/test/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/test/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/test/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/javakc_ssm.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javakc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/modules/dictionary/DictionaryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/modules/org/OrgtreeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/modules/system/HomeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/modules/system/MenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/modules/system/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/modules/system/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapping/modules/test/testDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/template/测试模块.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/META-INF/javakc_ssm.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/javakc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/mapping/modules/dictionary/DictionaryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/mapping/modules/org/OrgtreeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/mapping/modules/system/HomeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/mapping/modules/system/MenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/mapping/modules/system/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/mapping/modules/system/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/mapping/modules/test/testDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/template/测试模块.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/zhg.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/jsp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/jsp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/view/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/view/error/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/view/error/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/view/error/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/view/images/403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/view/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/view/images/500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/common/view/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/form_avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/index_v1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/index_v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/index_v3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/bootstrapValidator.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/patterns/header-profile-skin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/patterns/header-profile-skin-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/patterns/header-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/bootstrap-switch/bootstrap-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/chosen/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/colorpicker/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/cropper/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/file-input/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/switchery/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/treegrid/jquery.treegrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/treeview/bootstrap-treeview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/plugins/ztree/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/html/form/form_advanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/html/form/form_basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/alipay_qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/iconfont-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/index_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/loading-upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p_big1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p_big2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/p_big3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/profile_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/profile_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/img/wenku_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/bootstrapValidator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/contabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/content.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/hplus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/bootstrap-switch/bootstrap-switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/bootstrap-table/bootstrap-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/chosen/chosen.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/clockpicker/clockpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/cropper/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/file-input/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/fullavatareditor/fullAvatarEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/fullavatareditor/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/highcharts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/highcharts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/highcharts-3d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/highcharts-3d.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/highcharts-3d.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/highcharts-more.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/highcharts.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/accessibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/accessibility.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/accessibility.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/annotations.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/boost-canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/boost-canvas.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/boost-canvas.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/boost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/boost.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/boost.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/broken-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/broken-axis.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/broken-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/bullet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/bullet.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/data.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/drag-panes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/drag-panes.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/drag-panes.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/drilldown.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/export-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/export-data.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/export-data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/exporting.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/funnel.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/gantt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/gantt.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/gantt.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/grid-axis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/grid-axis.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/grid-axis.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/heatmap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/histogram-bellcurve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/histogram-bellcurve.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/histogram-bellcurve.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/item-series.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/item-series.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/item-series.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/no-data-to-display.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/offline-exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/offline-exporting.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/offline-exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/oldie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/oldie.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/oldie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/overlapping-datalabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/overlapping-datalabels.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/overlapping-datalabels.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/parallel-coordinates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/parallel-coordinates.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/parallel-coordinates.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/pareto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/pareto.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/pareto.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/sankey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/sankey.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/sankey.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/series-label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/series-label.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/series-label.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/solid-gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/solid-gauge.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/solid-gauge.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/static-scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/static-scale.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/static-scale.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/stock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/stock.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/stock.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/streamgraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/streamgraph.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/streamgraph.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/sunburst.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/sunburst.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/sunburst.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/tilemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/tilemap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/tilemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/treemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/treemap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/treemap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/variable-pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/variable-pie.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/variable-pie.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/variwide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/variwide.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/variwide.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/vector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/vector.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/vector.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/windbarb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/windbarb.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/windbarb.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/wordcloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/wordcloud.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/wordcloud.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/xrange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/xrange.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/modules/xrange.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/avocado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/avocado.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/avocado.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/dark-blue.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/dark-blue.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/dark-green.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/dark-green.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/dark-unica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/dark-unica.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/dark-unica.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/gray.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/gray.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/grid-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/grid-light.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/grid-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/grid.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/grid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/sand-signika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/sand-signika.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/sand-signika.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/skies.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/skies.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/sunset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/sunset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/css/js/themes/sunset.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/avocado.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/avocado.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/avocado.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/dark-blue.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/dark-blue.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/dark-green.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/dark-green.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/dark-unica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/dark-unica.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/dark-unica.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/gray.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/gray.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/grid-light.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/grid-light.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/grid-light.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/grid.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/grid.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/sand-signika.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/sand-signika.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/sand-signika.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/skies.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/skies.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/sunset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/sunset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/highcharts/themes/sunset.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/jasny/jasny-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/jsKnob/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/layer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/mono/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/mono/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/moon/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/nouslider/jquery.nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/pace/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/prettyfile/bootstrap-prettyfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/steps/jquery.steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/steps/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/steps/steps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/switchery/switchery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/treegrid/jquery.treegrid.bootstrap3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/treegrid/jquery.treegrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/treeview/bootstrap-treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/validate/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/validate/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/ztree/jquery.ztree.core-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/ztree/jquery.ztree.core-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/ztree/jquery.ztree.excheck-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/ztree/jquery.ztree.excheck-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/ztree/jquery.ztree.exedit-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/plugins/ztree/jquery.ztree.exedit-3.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/static/js/tool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/dictionary/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/dictionary/js/dictionary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/dictionary/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/dictionary/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/org/tree/js/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/org/tree/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/cache/js/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/cache/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/menu/create-parent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/menu/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/menu/js/menu-create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/menu/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/menu/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/menu/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/role/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/role/js/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/role/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/role/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/user/forgetpass.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/user/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/user/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/system/user/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/test/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/test/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javakc_ssm/view/test/update.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/modules/test/testDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/entity/TestEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/dao/TestDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dao/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="81" column="33" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/service/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/test/update.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="183" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="183" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/test/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="28" column="74" lean-forward="true" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-221">
+              <caret line="101" column="36" lean-forward="true" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="guanliZhou" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/controller/testController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/entity/testEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/dao/testDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/service/testService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/entity/TestEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/dao/TestDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/service/TestService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/test/create.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/controller/TestContrioller.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/test/update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/modules/test/testDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/test/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="javakc_ssm Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="296" />
+    <option name="y" value="135" />
+    <option name="width" value="1340" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <compactDirectories Scope="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="javakc_ssm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javakc_ssm" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="javakc_ssm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javakc_ssm" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="javakc_ssm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="javakc_ssm" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/view/test" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HuiCai\javakc_ssm\javakc_ssm\src\main\webapp\view\test" />
+      <recent name="D:\HuiCai\javakc_ssm\javakc_ssm\src\main\resources\mapping\modules\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/javakc_ssm/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="javakc_ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/javakc_ssm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_javakc_ssm_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51729" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="JAVA_TOOL_OPTIONS" />
+          <option name="VALUE" value="-Dfile.encoding=UTF-8" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="javakc_ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52f613b5-24ea-4220-ad5d-46a1c09e2f5b" name="Default Changelist" comment="" />
+      <created>1574134152681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574134152681</updated>
+      <workItem from="1574134154243" duration="10982000" />
+      <workItem from="1574150000006" duration="7602000" />
+      <workItem from="1574221975192" duration="5201000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23785000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24731903" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.575804" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="Application Servers" order="3" sideWeight="0.73458445" weight="0.42725882" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.82573724" visible="true" weight="0.15773354" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.93406594" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.17426273" side_tool="true" visible="true" weight="0.15773354" />
+      <window_info anchor="right" id="CDI" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="1" />
+      <window_info anchor="right" id="JSF" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.12868632" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Database" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="央厨端供应管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="央厨端供应管理系统" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/db/javakc_oracle.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/system/user/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="26" column="80" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/system/user/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/system/user/forgetpass.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="87" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/org/tree/list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/system/role/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/system/role/create.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/system/user/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/system/cache/list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/system/shiro/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/modules/dictionary/DictionaryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/page/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="76" column="52" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="52" />
+          <folding>
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-502">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/dictionary/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.9.RELEASE/spring-webmvc-5.1.9.RELEASE-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/modules/system/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/io/ClassLoaderWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="65" column="88" lean-forward="true" selection-start-line="65" selection-start-column="88" selection-end-line="65" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/zhg.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/jsp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/dictionary/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/test/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="113" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="488" selection-start-line="488" selection-end-line="488" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.9.RELEASE/spring-aop-5.1.9.RELEASE.jar!/org/springframework/aop/framework/AdvisedSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#2500#2501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/modules/test/testDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/entity/TestEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/dao/TestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/base/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/test/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="183" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="101" column="36" lean-forward="true" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/test/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="28" column="74" lean-forward="true" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/test/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

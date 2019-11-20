@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhg.javakc.modules.test.dao.TestDao">
+    <sql id="all_columns">
+        test_id,
+        test_name,
+        test_sex,
+        test_date
+    </sql>
+    <resultMap id="testmap" type="testEntity">
+        <id property="testId" column="test_id"/>
+        <result property="testName" column="test_name"/>
+        <result property="testSex" column="test_sex"/>
+        <result property="testDate" column="test_date"/>
+    </resultMap>
+
+	<select id="findList" resultMap="testmap" >
+       select * from tbl_test where 1=1
+        <if test="testName!=null and testName!=''"> AND test_Name like
+            '%'||#{testName}||'%'</if>
+    </select>
+
+    <insert id="insert" >
+        insert into tbl_test(test_id,test_name,test_sex,test_date) values (#{testId},#{testName},#{testSex},#{testDate})
+    </insert>
+
+    <select id="get" resultMap="testmap">
+        select
+        <include refid="all_columns"/>
+         from tbl_test where test_id=#{id}
+    </select>
+
+    <update id="update" >
+      update tbl_test set test_name=#{testName} , test_sex=#{testSex} ,test_date=#{testDate} where  test_id=#{testId}
+    </update>
+
+    <delete id="delete">
+        delete from tbl_test where test_id in
+        <foreach collection="array" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+	
+</mapper>
