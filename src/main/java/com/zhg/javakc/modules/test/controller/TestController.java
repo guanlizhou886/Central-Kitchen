@@ -33,7 +33,7 @@ public class TestController {
         ModelAndView modelAndView=new ModelAndView("/test/list");
         Page<TestEntity> page=testService.queryTest(testEntity,new Page<>(request,response));
         modelAndView.addObject("page",page);
-
+        System.out.println(11111111);
         return  modelAndView;
     }
 
