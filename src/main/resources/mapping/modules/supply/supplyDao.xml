@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhg.javakc.modules.supply.dao.SupplyDao">
+
+    <select id="findList" resultType="com.zhg.javakc.modules.supply.entity.SupplyEntity">
+        select supply_id as supplyId,supply_name as supplyName,supply_type as supplyType,
+        supply_relation as supplyRelation,supply_relationnum as supplyRelationNum,
+        supply_agreement as supplyAgreement,supply_menhu as supplyMenHu
+        from KIT_SUPPLY where 1=1
+
+    </select>
+
+    <insert id="insert">
+        insert into KIT_SUPPLY(supply_name,supply_type,supply_relation,supply_relationnum,supply_agreement,supply_menhu)
+        values (#{supplyName},#{supplyType},#{supplyRelation},#{supplyRelationNum},#{supplyAgreement},#{supplyMenHu})
+    </insert>
+
+        <delete id="delete" >
+            delete from KIT_SUPPLY where supply_id in
+            <foreach collection="array" item="id" open="(" separator="," close=")">
+                #{id}
+            </foreach>
+        </delete>
+
+    <select id="get" resultType="com.zhg.javakc.modules.supply.entity.SupplyEntity">
+        select supply_id as supplyId,supply_name as supplyName,supply_type as supplyType,
+        supply_relation as supplyRelation,supply_relationnum as supplyRelationNum,
+        supply_agreement as supplyAgreement,supply_menhu as supplyMenHu
+        from KIT_SUPPLY where supply_id=#{0}
+    </select>
+    <update id="update">
+        update KIT_SUPPLY set supply_name=#{supplyName},supply_type=#{supplyType},supply_relation=#{supplyRelation},
+        supply_relationnum=#{supplyRelationNum},supply_agreement=#{supplyAgreement},supply_menhu=#{supplyMenHu}
+        where supply_id=#{supplyId}
+    </update>
+
+
+
+</mapper>
