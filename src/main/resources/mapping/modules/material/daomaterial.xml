@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhg.javakc.modules.material.dao.daomaterial">
+   <select id="findList" resultType="com.zhg.javakc.modules.material.entity.materialentity">
+select t.*,k.type_name,t.MATERIAL_CREATEDATE as createDate,t.MATERIAL_UPDATETIME as updateDate from KIT_MATERIAL t,kit_type k where  t.type_id=k.type_id
+   </select>
+	<insert id="insert">
+       insert into KIT_MATERIAL(MATERIAL_ID,MATERIAL_NAME,MATERIAL_SIMPNAME,MATERIAL_GUIGE,TYPE_ID,MATERIAL_CREATEDATE,MATERIAL_UNIT,MATERIAL_STATUS) values (#{MATERIAL_ID},#{MATERIAL_NAME},#{MATERIAL_SIMPNAME},#{MATERIAL_GUIGE},#{typeid},#{createDate},#{MATERIAL_UNIT},#{MATERIAL_STATUS})
+    </insert>
+
+    <select id="get" resultType="com.zhg.javakc.modules.material.entity.materialentity">
+      select t.*,k.type_name from KIT_MATERIAL t,kit_type k where  t.type_id=k.type_id and MATERIAL_ID=#{ids}
+    </select>
+    <update id="update">
+        update KIT_MATERIAL set MATERIAL_NAME=#{MATERIAL_NAME},MATERIAL_SIMPNAME=#{MATERIAL_SIMPNAME},MATERIAL_GUIGE=#{MATERIAL_GUIGE},type_id=#{typeid},MATERIAL_UPDATETIME=#{updateDate},MATERIAL_STATUS=#{MATERIAL_STATUS},MATERIAL_UNIT=#{MATERIAL_UNIT} where MATERIAL_ID=#{MATERIAL_ID}
+    </update>
+    <delete id="delete">
+        delete  from KIT_MATERIAL where MATERIAL_ID in
+        <foreach collection="array" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    <select id="queryrelation" resultType="com.zhg.javakc.modules.material.entity.materialentity">
+        select t.*,k.type_name,t.MATERIAL_CREATEDATE as createDate,t.MATERIAL_UPDATETIME as updateDate from KIT_MATERIAL t,kit_type k where  t.type_id=k.type_id and MATERIAL_STATUS='1'
+
+    </select>
+</mapper>

@@ -28,10 +28,10 @@ String path = request.getContextPath();
             <h3>欢迎使用</h3>
             <form class="m-t" action="<%=path %>/login.do" method="post" target="_self">
                 <div class="form-group">
-                    <input type="text" name="name" class="form-control" placeholder="用户名">
+                    <input type="text" name="name" class="form-control" placeholder="用户名" value="admin">
                 </div>
                 <div class="form-group">
-                    <input type="password" name="pass" class="form-control" placeholder="密码">
+                    <input type="password" name="pass" class="form-control" placeholder="密码" value="123456">
                 </div>
 <!--                 <div class="form-group"> -->
 <!--                     <input type="text" name="code" class="form-control" placeholder="验证码"> -->
