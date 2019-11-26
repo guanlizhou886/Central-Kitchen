@@ -121,7 +121,7 @@
 						   </div>
 							<a id="menuBtn" href="#" onclick="showMenu(); return false;" class="col-sm-2 control-label">请选择所属分类</a></li>
 							<div class="col-sm-2">
-								<input id="citySel" type="text"  value="" style="width:120px;" name="type_name" class="form-control" placeholder="${entity.type_name}"/>
+								<input id="citySel" type="text"  value="${entity.type_name}" style="width:120px;" name="type_name" class="form-control"/>
 								<div id="menuContent" class="menuContent" style="display:none;">
 									<ul id="treeDemo" class="ztree" style="margin-top:0; width:160px;"  ></ul>
 								</div>

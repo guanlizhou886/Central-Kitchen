@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f613b5-24ea-4220-ad5d-46a1c09e2f5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/material/service/materialservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhg/javakc/modules/material/service/materialservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/material/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/material/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/material/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/material/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/materialtree/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/materialtree/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Central-Kitchen.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javakc_ssm/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/javakc_ssm/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/javakc_ssm/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javakc_ssm/view/material/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/javakc_ssm/view/material/create.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/javakc_ssm/view/material/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/javakc_ssm/view/material/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javakc_ssm/view/materialtree/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/javakc_ssm/view/materialtree/create.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,11 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/view/material/update.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
               <caret line="123" column="142" selection-start-line="123" selection-start-column="138" selection-end-line="123" selection-end-column="142" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -195,6 +192,86 @@
             <path>
               <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zhg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zhg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="javakc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zhg" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="javakc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="modules" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mapping" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Central-Kitchen2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Central-Kitchen2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mapping" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="modules" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -356,7 +433,7 @@
       <workItem from="1574665511010" duration="15610000" />
       <workItem from="1574729853172" duration="2625000" />
       <workItem from="1574746562133" duration="496000" />
-      <workItem from="1574747865787" duration="5577000" />
+      <workItem from="1574747865787" duration="7257000" />
     </task>
     <task id="LOCAL-00001" summary="央厨端供应管理系统——">
       <created>1574235230027</created>
@@ -365,11 +442,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574235230027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="央厨端供应管理系统——">
+      <created>1574753534325</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574753534325</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114063000" />
+    <option name="totallyTimeSpent" value="115743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,7 +468,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.31367293" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -398,7 +482,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.8170241" weight="0.62940276" />
-      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.1883614" />
+      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.22205207" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49731904" weight="0.3286119" />
@@ -733,13 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/countkitchen/org/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102" />
@@ -825,6 +902,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="123" column="142" selection-start-line="123" selection-start-column="138" selection-end-line="123" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
