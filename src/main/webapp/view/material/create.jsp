@@ -90,7 +90,7 @@
                           </div>
 						   <label class="col-sm-2 control-label" >图片信息</label>
 							   <div class="col-sm-3">
-								   <input class="form-control" type="file" name="attachment"/>
+								   <input class="form-control" type="file" name="attachment1"/>
 							   </div>
 					   </div>
 						<div class="form-group">

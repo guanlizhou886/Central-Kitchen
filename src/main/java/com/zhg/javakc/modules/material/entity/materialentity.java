@@ -3,6 +3,9 @@ package com.zhg.javakc.modules.material.entity;
 import com.zhg.javakc.base.entity.BaseEntity;
 import lombok.Data;
 
+
+
+
 @Data
 public class materialentity extends BaseEntity<materialentity> {
     private String MATERIAL_ID;
@@ -13,5 +16,9 @@ public class materialentity extends BaseEntity<materialentity> {
     private String typeid;
 private String MATERIAL_UNIT;
 private int MATERIAL_STATUS;
+ private byte[] attachment;
+
+
+
 }
 

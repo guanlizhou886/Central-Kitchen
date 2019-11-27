@@ -5,7 +5,7 @@
 select t.*,k.type_name,t.MATERIAL_CREATEDATE as createDate,t.MATERIAL_UPDATETIME as updateDate from KIT_MATERIAL t,kit_type k where  t.type_id=k.type_id
    </select>
 	<insert id="insert">
-       insert into KIT_MATERIAL(MATERIAL_ID,MATERIAL_NAME,MATERIAL_SIMPNAME,MATERIAL_GUIGE,TYPE_ID,MATERIAL_CREATEDATE,MATERIAL_UNIT,MATERIAL_STATUS) values (#{MATERIAL_ID},#{MATERIAL_NAME},#{MATERIAL_SIMPNAME},#{MATERIAL_GUIGE},#{typeid},#{createDate},#{MATERIAL_UNIT},#{MATERIAL_STATUS})
+       insert into KIT_MATERIAL(MATERIAL_ID,MATERIAL_NAME,MATERIAL_SIMPNAME,MATERIAL_GUIGE,TYPE_ID,MATERIAL_CREATEDATE,MATERIAL_UNIT,MATERIAL_STATUS,MATERIAL_PICTURE) values (#{MATERIAL_ID},#{MATERIAL_NAME},#{MATERIAL_SIMPNAME},#{MATERIAL_GUIGE},#{typeid},#{createDate},#{MATERIAL_UNIT},#{MATERIAL_STATUS},#{attachment})
     </insert>
 
     <select id="get" resultType="com.zhg.javakc.modules.material.entity.materialentity">
