@@ -60,4 +60,11 @@ public class SupplyController {
         return "redirect:query.do";
     }
 
+    @RequestMapping("/add")
+    public String update(String supplyId,ModelMap map){
+        map.put("entity", supplyService.get(supplyId));
+        return "supply/detail";
+    }
+
+
 }
