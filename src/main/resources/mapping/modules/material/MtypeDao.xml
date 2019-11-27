@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhg.javakc.modules.kitchen.mtype.dao.MtypeDao">
+
+    <resultMap id="mtypeMap" type="com.zhg.javakc.modules.kitchen.mtype.entity.MtypeEntity">
+        <id property="typeId" column="TYPE_ID"></id>
+        <id property="typeParentId" column="TYPE_PARENT_ID"></id>
+        <id property="typeName" column="TYPE_NAME"></id>
+        <id property="typeSimpName" column="TYPE_SIMPNAME"></id>
+        <id property="typeOpen" column="TYPE_OPEN"></id>
+    </resultMap>
+
+    <sql id="allColumn">
+        t.type_id,t.type_parent_id,t.type_name,t.type_simpname,t.type_open
+    </sql>
+
+<!--    /* decode (type_open,0,'false',1,'true')  "open"*/-->
+    <select id="queryAllList" resultType="java.util.HashMap">
+        select
+         type_id "id",
+         type_parent_id "pId",
+         type_name "name",
+         decode (type_open,0,'false',1,'true') "open"
+          from kit_type where 1=1
+
+    </select>
+
+
+    <insert id="insert">
+        insert into kit_type(type_id,type_parent_id,type_name,type_simpname,type_open)
+            values (#{typeId},#{typeParentId},#{typeName},#{typeSimpName},#{typeOpen})
+    </insert>
+
+    <select id="get" resultMap="mtypeMap">
+        select <include refid="allColumn"></include> from kit_type t  where  t.type_id=#{id}
+    </select>
+
+    <update id="update" >
+        update kit_type t set
+            t.type_parent_id=#{typeParentId}, t.type_name=#{typeName},
+            t.type_simpname=#{typeSimpName},t.type_open=#{typeOpen}
+                where t.type_id=#{typeId}
+    </update>
+
+    <select id="getChild" resultType="java.util.HashMap">
+        select
+         type_id "id",
+         type_parent_id "pId",
+         type_name "name",
+         decode (type_open,0,'false',1,'true') "open"
+         from kit_type  where type_parent_id=#{typeId}
+    </select>
+
+    <delete id="delete">
+        delete kit_type where type_id=#{id}
+    </delete>
+
+</mapper>
