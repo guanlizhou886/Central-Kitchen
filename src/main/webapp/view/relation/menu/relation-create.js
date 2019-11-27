@@ -18,7 +18,7 @@ $(function () {
             shadeClose: true,
             shade: 0.8,
             area: ['65%', '65%'],
-            content: root+'/supply/query.do'
+            content:root+'/supply/www.do'
         });
     });
 });

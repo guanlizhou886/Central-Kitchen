@@ -59,5 +59,13 @@ public class SupplyController {
         supplyService.update(supplyEntity);
         return "redirect:query.do";
     }
+    @RequestMapping("/www")
+    public ModelAndView querybysome(SupplyEntity supplyEntity,HttpServletRequest request, HttpServletResponse response){
+
+        ModelAndView modelAndView=new ModelAndView("supply/listrelation");
+        Page<SupplyEntity> page=supplyService.queryTest(supplyEntity,new Page<>(request,response));
+        modelAndView.addObject("page",page);
+        return  modelAndView;
+    }
 
 }

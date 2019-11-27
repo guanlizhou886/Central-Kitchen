@@ -50,7 +50,7 @@
 					        	<c:forEach var="e" items="${page.list}" varStatus="v">
 						            <tr>
 						                <td><input type="checkbox" name="ids" value="${e.MATERIAL_ID}"/></td>
-						                <td>${e.MATERIAL_NAME}</td>
+										<td><a href="#" onclick="javascript:show('${e.MATERIAL_ID}')">${e.MATERIAL_NAME}</a></td>
 						                <td>${e.MATERIAL_SIMPNAME}</td>
 						                <td>${e.MATERIAL_GUIGE}</td>
 										<td>${e.type_name}</td>
@@ -67,5 +67,17 @@
 			     </form>
 			</div>
 		</div>
+	<script language="JavaScript">
+		function show(id) {
+			layer.open({
+				type: 2,
+				title: '物资基本信息',
+				shadeClose: true,
+				shade: 0.8,
+				area: ['65%', '65%'],
+				content: ""
+			});
+		}
+	</script>
 	</body>
 </html>
