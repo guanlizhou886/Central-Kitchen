@@ -32,4 +32,6 @@ public class SupplyService extends BaseService<SupplyDao, SupplyEntity> {
 
 
 
+
+
 }
