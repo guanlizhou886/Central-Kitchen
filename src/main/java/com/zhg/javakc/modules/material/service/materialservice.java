@@ -19,7 +19,7 @@ public class materialservice extends BaseService<daomaterial, materialentity> {
     public Page<materialentity> query(materialentity entity, Page<materialentity> page){
         entity.setPage(page);
        List<materialentity> list=dao.findList(entity);
-        System.out.println(list.get(0));
+//        System.out.println(list.get(0));
         page.setList(list);
         return page;
     }

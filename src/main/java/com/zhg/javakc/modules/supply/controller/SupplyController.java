@@ -68,4 +68,11 @@ public class SupplyController {
         return  modelAndView;
     }
 
+    @RequestMapping("/add")
+    public String update(String supplyId,ModelMap map){
+        map.put("entity", supplyService.get(supplyId));
+        return "supply/detail";
+    }
+
+
 }

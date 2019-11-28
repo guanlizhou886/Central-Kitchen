@@ -92,17 +92,20 @@ function onBodyDown(event) {
 								   <ul id="treeDemo" class="ztree" style="margin-top:0; width:160px;"  ></ul>
 							   </div>
 						   </div>
+					   </div>
+						<div class="form-group">
 
                           <label class="col-sm-2 control-label" for="ds_host">物资类别名称</label>
                           <div class="col-sm-2">
                              <input class="form-control" type="text" name="orgname"/>
                           </div>
+						</div>
+						<div class="form-group">
                           <label class="col-sm-2 control-label" for="ds_name">物资类别简称</label>
                           <div class="col-sm-2">
 							  <input class="form-control" type="text" name="TYPE_SIMPNAME"/>
                            </div>
-                       </div>
-
+						</div>
                     </fieldset>
                     <fieldset>
                         <div class="form-group">

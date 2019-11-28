@@ -3,9 +3,9 @@
 <mapper namespace="com.zhg.javakc.modules.supply.dao.SupplyDao">
 
     <select id="findList" resultType="com.zhg.javakc.modules.supply.entity.SupplyEntity">
-        select supply_id as supplyId,supply_name as supplyName,supply_type as supplyType,
+        select supply_id as supplyId,supply_name as supplyName,supply_type as supplyType,supply_sort as supplySort,
         supply_relation as supplyRelation,supply_relationnum as supplyRelationNum,
-        supply_agreement as supplyAgreement,supply_menhu as supplyMenHu
+        supply_agreement as supplyAgreement,supply_menhu as supplyMenHu,supply_status as supplyStatus
         from KIT_SUPPLY where 1=1
 
     </select>
@@ -25,12 +25,14 @@
     <select id="get" resultType="com.zhg.javakc.modules.supply.entity.SupplyEntity">
         select supply_id as supplyId,supply_name as supplyName,supply_type as supplyType,
         supply_relation as supplyRelation,supply_relationnum as supplyRelationNum,
-        supply_agreement as supplyAgreement,supply_menhu as supplyMenHu
+        supply_agreement as supplyAgreement,supply_menhu as supplyMenHu,supply_status as supplyStatus,
+        supply_name as supplySimpName,supply_lawer as supplyLawer,supply_LawNum as supplyLawNum,
+        supply_address  as supplyAddress,supply_RelationEmail as  supplyRelationEmail
         from KIT_SUPPLY where supply_id=#{0}
     </select>
     <update id="update">
-        update KIT_SUPPLY set supply_name=#{supplyName},supply_type=#{supplyType},supply_relation=#{supplyRelation},
-        supply_relationnum=#{supplyRelationNum},supply_agreement=#{supplyAgreement},supply_menhu=#{supplyMenHu}
+        update KIT_SUPPLY set supply_name=#{supplyName},supply_type=#{supplyType},supply_relation=#{supplyRelation},supply_sort=#{supplySort},
+        supply_relationnum=#{supplyRelationNum},supply_agreement=#{supplyAgreement},supply_menhu=#{supplyMenHu},supply_status=#{supplyStatus}
         where supply_id=#{supplyId}
     </update>
 

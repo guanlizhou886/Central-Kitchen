@@ -29,7 +29,7 @@
 
 
 			$.post(root+'tree/query.do',function (zNodes) {
-				$.fn.zTree.init($("#treeDemo"), setting, zNodes);
+				$.fn.zTree.init($("#treeDemo"),setting, zNodes);
 			},'json')
 
 		})
@@ -84,48 +84,51 @@
                     <fieldset>
                         <legend>test基本信息</legend>
                        <div class="form-group">
-                          <label class="col-sm-2 control-label" for="ds_host">物资名称</label>
-                          <div class="col-sm-4">
+                          <label class="col-sm-2 control-label" >物资名称</label>
+                          <div class="col-sm-3">
                              <input class="form-control" type="text" name="MATERIAL_NAME"/>
                           </div>
-						   <div class="form-group">
-							   <label class="col-sm-2 control-label" for="ds_host">图片信息</label>
-							   <div class="col-sm-4">
-								   <input class="form-control" type="file" name="attachment"/>
+						   <label class="col-sm-2 control-label" >图片信息</label>
+							   <div class="col-sm-3">
+								   <input class="form-control" type="file" name="attachment1"/>
 							   </div>
-                          <label class="col-sm-2 control-label" for="ds_name">物资简称</label>
-                          <div class="col-sm-4">
+					   </div>
+						<div class="form-group">
+                          <label class="col-sm-2 control-label" >物资简称</label>
+                          <div class="col-sm-3">
 							  <input class="form-control" type="text" name="MATERIAL_SIMPNAME"/>
                            </div>
-                       </div>
-                       <div class="form-group">
-                          <label class="col-sm-2 control-label" for="ds_username">物资规格</label>
-                          <div class="col-sm-4">
+
+                          <label class="col-sm-2 control-label" >物资规格</label>
+                          <div class="col-sm-3">
                               <input class="form-control" type="text" name="MATERIAL_GUIGE"/>
                           </div>
+						</div>
 						   <div class="form-group">
-							   <label class="col-sm-2 control-label" for="ds_username">物资基本单位</label>
-							   <div class="col-sm-4">
-								   <input class="form-control" type="text" name="MATERIAL_UNIT"/>
+							   <label class="col-sm-2 control-label" >物资基本单位</label>
+							   <div class="col-sm-3">
+								   <zhg:select codeTp="unit"  name="MATERIAL_UNIT" cls="form-control" def="true"></zhg:select>
 							   </div>
-							   <div class="form-group">
-								   <label class="col-sm-2 control-label" for="ds_username">物资状态</label>
-								   <div class="col-sm-4">
-									  <select type="" name="MATERIAL_STATUS">
+								   <label class="col-sm-2 control-label" >物资状态</label>
+								   <div class="col-sm-3" >
+									  <select type="" name="MATERIAL_STATUS" class="form-control">
 										  <option value=""></option>
 										  <option value="0" name="">停用</option>
 										  <option value="1" name="">启用</option>
 									  </select>
 								   </div>
+						   </div>
+
 						   <div class="form-group">
 							   <a id="menuBtn" href="#" onclick="showMenu(); return false;" class="col-sm-2 control-label">请选择所属分类</a></li>
 							   <div class="col-sm-2">
-								   <input id="citySel" type="text"  value="" style="width:120px;" name="nodename" id="nodename"/>
+								   <input id="citySel" type="text"  value="" style="width:120px;" name="nodename" id="nodename" readonly/>
 								   <div id="menuContent" class="menuContent" style="display:none;">
 									   <ul id="treeDemo" class="ztree" style="margin-top:0; width:160px;"  ></ul>
 								   </div>
 							   </div>
-                       </div>
+                           </div>
+
                     </fieldset>
                     <fieldset>
                         <div class="form-group">

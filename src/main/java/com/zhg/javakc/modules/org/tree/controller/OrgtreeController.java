@@ -22,6 +22,7 @@ public class OrgtreeController {
 	@ResponseBody
 	public List<Map<String, Object>> query() throws Exception
 	{
+		System.out.println(11111);
 		return orgtreeService.findList();
 	}
 	

@@ -9,6 +9,15 @@ import lombok.Setter;
 public class relationentity extends BaseEntity<relationentity> {
 private String SUPPLY_ID;
 private String MATERIAL_ID;
+private String orgid;
+
+    public String getOrgid() {
+        return orgid;
+    }
+
+    public void setOrgid(String orgid) {
+        this.orgid = orgid;
+    }
 
     public String getSUPPLY_ID() {
         return SUPPLY_ID;

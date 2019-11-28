@@ -3,7 +3,7 @@
 <mapper namespace="com.zhg.javakc.modules.relation.dao.relationdao">
 
 <insert id="insert">
-    insert into relation (supply_id,material_id) values (#{SUPPLY_ID},#{MATERIAL_ID})
+    insert into MATERIAL_SUPPLY_RELATION (supply_id,material_id,ORGTYPE_ID) values (#{SUPPLY_ID},#{MATERIAL_ID},#{orgid})
 </insert>
 
 </mapper>

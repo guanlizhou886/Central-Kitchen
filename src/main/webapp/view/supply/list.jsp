@@ -4,6 +4,32 @@
 	<head>
 		<title>供货商展示列表页面</title>
 		<%@ include file="../../common/jsp/header.jsp"%>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				$('a').click(function()
+				{
+				    // var v=$("#ids").val();
+
+
+                    var v=$(this).attr("name");
+                    $("#supplyId").val(v)
+
+                    // console.log($("this:parent:parent:nth-child(0):first-child").val())
+					var url=root+'/supply/add.do';
+					// alert(url);
+					$("#searchForm").attr('action', url).submit();
+
+				});
+
+
+			});
+		</script>
+
+
+
+
 	</head>
 	<body>
 		<div class="wrapper wrapper-content animated fadeInRight">
@@ -29,6 +55,7 @@
 	                	<input class="form-control" id="search" name="supplyName" value="${SupplyEntity.supplyName }" type="text" placeholder="查询内容 回车搜索"/>
 	                </div>
 	                 <!-- ------------按钮组 end------------ -->
+						<input id="supplyId" name="supplyId" type="hidden1" value=""/>
 						<input id="pageNo" name="pageNo" type="hidden" value="${page.pageNo}"/>
 						<input id="pageSize" name="pageSize" type="hidden" value="${page.pageSize}"/>
 		                 <table class="table table-striped table-bordered table-hover table-condensed">
@@ -48,9 +75,14 @@
 					        	<c:set var="vs"></c:set>
 					        	<c:forEach var="e" items="${page.list }" varStatus="v">
 						            <tr>
-						                <td><input type="checkbox" name="ids" value="${e.supplyId }"/></td>
+						                <td><input type="checkbox" id="ids" name="ids" value="${e.supplyId }"/></td>
 						                <td>${e.supplyId }</td>
-						                <td>${e.supplyName }</td>
+						                <td>
+
+                                            <a name="${e.supplyId }">${e.supplyName }</a>
+
+
+										</td>
 						                <td>${e.supplyType==0? "一类":"二类" }</td>
 						                <td>${e.supplyRelation }</td>
 						                <td>${e.supplyRelationNum }</td>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhg.javakc.modules.orgtype.dao.OrgtypeDao">
+
+    <!--查询-->
+    <select id="queryAllType" resultType="java.util.HashMap">
+        SELECT
+        ORGTYPE_ID "id",
+        ORGTYPE_PARENT_ID  "pId",
+        ORGTYPE_NAME "name",
+        PRICEGROUP_ID "pricegroupId"
+       FROM KIT_ORGTYPE WHERE 1=1
+    </select>
+
+    <!--新增-->
+    <insert id="insert">
+       INSERT INTO KIT_ORGTYPE( ORGTYPE_ID , ORGTYPE_PARENT_ID, ORGTYPE_NAME)
+       VALUES (#{id},#{pId},#{name})
+    </insert>
+
+    <!--删除前查询-->
+    <select id="queryById" resultType="java.util.HashMap">
+        SELECT
+         ORGTYPE_ID "id",
+        ORGTYPE_PARENT_ID  "pId",
+        ORGTYPE_NAME "name",
+        PRICEGROUP_ID "pricegroupId"
+       FROM KIT_ORGTYPE WHERE 1=1
+       AND ORGTYPE_PARENT_ID = #{id}
+    </select>
+
+    <!--删除-->
+    <delete id="deleteById">
+    DELETE  FROM KIT_ORGTYPE WHERE ORGTYPE_ID=#{id}
+    </delete>
+
+
+    <!--修改前查询-->
+    <select id="get" resultType="com.zhg.javakc.modules.orgtype.entity.OrgtypeEntity">
+        SELECT
+         ORGTYPE_ID "id",
+        ORGTYPE_PARENT_ID  "pId",
+        ORGTYPE_NAME "name",
+        PRICEGROUP_ID "pricegroupId"
+       FROM KIT_ORGTYPE  WHERE ORGTYPE_ID=#{id}
+    </select>
+
+    <!--修改-->
+    <update id="update">
+       UPDATE KIT_ORGTYPE SET
+        ORGTYPE_PARENT_ID = #{pId},
+        ORGTYPE_NAME = #{name}
+      WHERE  ORGTYPE_ID=#{id}
+    </update>
+
+
+</mapper>
